@@ -1,56 +1,16 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kids English Academy 🎈</title>
+    <title>Kids English Encyclopedia 🎈</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="balloon-bg"></div>
+    <!-- سيتم عرض محتوى الموسوعة التفاعلية هنا عبر الجافاسكريبت -->
+    <div id="app"></div>
 
-    <header>
-        <div class="logo">🌟 Kids English 🌟</div>
-        <h1>مرحباً بك في عالم الحروف والكلمات!</h1>
-        <div class="score-board">النجوم المكتسبة: <span id="score-count">⭐ 0</span></div>
-    </header>
-
-    <main>
-        <section class="section-box">
-            <h2>📢 اضغط واسمع النطق الصحيح (مستوى A1)</h2>
-            <div class="cards-grid">
-                <div class="card" onclick="playLesson('Apple', '🍎')">
-                    <span class="card-icon">🍎</span>
-                    <h3>Apple</h3>
-                </div>
-                <div class="card" onclick="playLesson('Banana', '🍌')">
-                    <span class="card-icon">🍌</span>
-                    <h3>Banana</h3>
-                </div>
-                <div class="card" onclick="playLesson('Car', '🚗')">
-                    <span class="card-icon">🚗</span>
-                    <h3>Car</h3>
-                </div>
-                <div class="card" onclick="playLesson('Cat', '🐱')">
-                    <span class="card-icon">🐱</span>
-                    <h3>Cat</h3>
-                </div>
-            </div>
-            <div id="focus-area" class="focus-area"></div>
-        </section>
-
-        <section class="section-box quiz-section">
-            <h2>🧩 إختبر ذكاءك: أين هي الموزة (Banana)؟</h2>
-            <div class="quiz-options">
-                <button class="quiz-btn" onclick="checkAnswer(false)">🚗</button>
-                <button class="quiz-btn" onclick="checkAnswer(true)">🍌</button>
-                <button class="quiz-btn" onclick="checkAnswer(false)">🐱</button>
-            </div>
-            <div id="quiz-feedback" class="feedback"></div>
-        </section>
-    </main>
-
-    <script href="script.js" src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
